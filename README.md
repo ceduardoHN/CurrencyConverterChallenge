@@ -38,6 +38,8 @@ Se recomienda ver el siguiente video para comprender mejor la explicación poste
 ### 3. El sistema proporciona alertas, al momento de ingreso de datos por parte del usuario, cuando es requerido. <br> 
 Por ejemplo cuando el usuario ingresa un código de moneda que la API [ExchangeRateAPI](https://www.exchangerate-api.com/) no reconoce o no soporta. 
 
+![Alura Badge]([https://drive.google.com/file/d/1DoknLjbnrN7H6MjaIbr4HPivT6jO-gyS/view?usp=drive_link](https://drive.google.com/file/d/1DoknLjbnrN7H6MjaIbr4HPivT6jO-gyS/view?usp=drive_link))
+
 <br>
 <b>Autor: Eduardo Soriano</b>. <br>
 
