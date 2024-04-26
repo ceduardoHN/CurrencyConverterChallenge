@@ -4,10 +4,7 @@
 
 - [Descripción del Challenge](#descripción-del-challenge)
 - [Requisitos del Sistema](#requisitos-del-sistema)
-- [Cómo Usar](#cómo-usar)
-- [Contribuciones](#contribuciones)
-- [Autor](#autor)
-- [Licencia](#licencia)
+- [Demostración del sistema](#demostración-del-sistema)
 
 ## Descripción del Challenge
 Conversor de Monedas con la ayuda de la API [ExchangeRateAPI](https://www.exchangerate-api.com/). En este proyecto se utilizan algunas funcionalidades como solicitudes HTTP, manejo y manipulación de objetos de tipo json (con ayuda de la libreria de google [Gson](https://mvnrepository.com/artifact/com.google.code.gson/gson)), y por último el filtrado y muestra de las monedas, sus tasas de cambio y conversiones correspondientes.
@@ -25,19 +22,17 @@ Como requisito para este proyecto se necesitarón las siguientes herramientas:
         - File --> Project Structure --> Modules --> Add (+) --> 1 JARs or Directories --> gson-2.10.1
     - [Link de descarga](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar)
 
-## Cómo Usar
+## Demostración del Sistema
+Se recomienda ver el siguiente video para comprender mejor la explicación posterior.<br>
+[![Enlace del video](https://img.youtube.com/vi/b2C5C921YFM/maxresdefault.jpg)](https://youtu.be/b2C5C921YFM)
 
-Instrucciones sobre cómo usar el proyecto.
-
-## Contribuciones
-
-Información sobre cómo contribuir al proyecto.
-
-## Autor
-
-Información sobre el autor del proyecto.
-
-## Licencia
-
-Información sobre la licencia del proyecto.
-
+1. Se despliega el Menú Principal del sistema. 
+   - Muestra las siguientes opciones:
+     - Mostrar todas las tasas de cambio que existen hasta la fecha de una moneda en específico.
+     - Obtener la tasa de cambio actual entre dos monedas especificadas por el usuario.
+     - Despliega un submenu donde se pueden realizacion conversiones de cantidades de una moneda a otra.
+     - Salir del sistema.
+2. El submenu que se despliega en la opcion 3 tiene las siguientes alternativas:
+   - Las opciones del 1 al 8 convierten datos de la moneda base a la otra especificada explícitamente en la opción.
+   - La opción 9 permite hacer una conversion de una cantidad de moneda especificada por el usuario, quien tambien especifica la moneda base y la moneda a la que quiere convertir dicha cantidad.
+3. El sistema proporciona alertas, al momento de ingreso de datos por parte del usuario, cuando es requerido. Por ejemplo cuando el usuario ingresa un código de moneda que la API [ExchangeRateAPI](https://www.exchangerate-api.com/) no reconoce o no soporta. 
