@@ -26,13 +26,19 @@ Como requisito para este proyecto se necesitarón las siguientes herramientas:
 Se recomienda ver el siguiente video para comprender mejor la explicación posterior.<br>
 [![Enlace del video](https://img.youtube.com/vi/b2C5C921YFM/maxresdefault.jpg)](https://youtu.be/b2C5C921YFM)
 
-1. Se despliega el Menú Principal del sistema. 
+### 1. Se despliega el Menú Principal del sistema. 
    - Muestra las siguientes opciones:
      - Mostrar todas las tasas de cambio que existen hasta la fecha de una moneda en específico.
      - Obtener la tasa de cambio actual entre dos monedas especificadas por el usuario.
      - Despliega un submenu donde se pueden realizacion conversiones de cantidades de una moneda a otra.
      - Salir del sistema.
-2. El submenu que se despliega en la opcion 3 tiene las siguientes alternativas:
+### 2. El submenu que se despliega en la opcion 3 tiene las siguientes alternativas:
    - Las opciones del 1 al 8 convierten datos de la moneda base a la otra especificada explícitamente en la opción.
    - La opción 9 permite hacer una conversion de una cantidad de moneda especificada por el usuario, quien tambien especifica la moneda base y la moneda a la que quiere convertir dicha cantidad.
-3. El sistema proporciona alertas, al momento de ingreso de datos por parte del usuario, cuando es requerido. Por ejemplo cuando el usuario ingresa un código de moneda que la API [ExchangeRateAPI](https://www.exchangerate-api.com/) no reconoce o no soporta. 
+### 3. El sistema proporciona alertas, al momento de ingreso de datos por parte del usuario, cuando es requerido. <br> 
+Por ejemplo cuando el usuario ingresa un código de moneda que la API [ExchangeRateAPI](https://www.exchangerate-api.com/) no reconoce o no soporta. 
+
+<br>
+<b>Autor: Eduardo Soriano</b>. <br>
+Github: [perfil](https://github.com/ceduardoHN/) <br>
+<b>Fecha de Lanzamiento: 25 de abril de 2024</b>
