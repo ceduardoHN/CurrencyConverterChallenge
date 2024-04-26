@@ -40,5 +40,7 @@ Por ejemplo cuando el usuario ingresa un código de moneda que la API [ExchangeR
 
 <br>
 <b>Autor: Eduardo Soriano</b>. <br>
-Github: [perfil](https://github.com/ceduardoHN/) <br>
+
+Perfil de Github: [ceduardoHN](https://github.com/ceduardoHN/) <br>
+
 <b>Fecha de Lanzamiento: 25 de abril de 2024</b>
