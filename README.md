@@ -5,6 +5,7 @@
 - [Descripción del Challenge](#descripción-del-challenge)
 - [Requisitos del Sistema](#requisitos-del-sistema)
 - [Demostración del sistema](#demostración-del-sistema)
+- [Datos Relevantes](#datos-relevantes)
 
 ## Descripción del Challenge
 Conversor de Monedas con la ayuda de la API [ExchangeRateAPI](https://www.exchangerate-api.com/). En este proyecto se utilizan algunas funcionalidades como solicitudes HTTP, manejo y manipulación de objetos de tipo json (con ayuda de la libreria de google [Gson](https://mvnrepository.com/artifact/com.google.code.gson/gson)), y por último el filtrado y muestra de las monedas, sus tasas de cambio y conversiones correspondientes.
@@ -38,11 +39,10 @@ Se recomienda ver el siguiente video para comprender mejor la explicación poste
 ### 3. El sistema proporciona alertas, al momento de ingreso de datos por parte del usuario, cuando es requerido. <br> 
 Por ejemplo cuando el usuario ingresa un código de moneda que la API [ExchangeRateAPI](https://www.exchangerate-api.com/) no reconoce o no soporta. 
 
-![Alura Badge]([https://drive.google.com/file/d/1DoknLjbnrN7H6MjaIbr4HPivT6jO-gyS/view?usp=drive_link](https://drive.google.com/file/d/1DoknLjbnrN7H6MjaIbr4HPivT6jO-gyS/view?usp=drive_link))
-
+## Datos Relevantes
+[Alura Badge](https://drive.google.com/file/d/1DoknLjbnrN7H6MjaIbr4HPivT6jO-gyS/view?usp=sharing)
 <br>
 <b>Autor: Eduardo Soriano</b>. <br>
-
 Perfil de Github: [ceduardoHN](https://github.com/ceduardoHN/) <br>
 
 <b>Fecha de Lanzamiento: 25 de abril de 2024</b>
