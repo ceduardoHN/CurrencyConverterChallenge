@@ -89,7 +89,7 @@ public class MainCurrencyConverter {
                 case 3:
                     while(flagOp2){
                         System.out.println("\n-----------------Menú de Conversiones-----------------");
-                        System.out.println("1. Dólar --> Peso Argetino");
+                        System.out.println("1. Dólar --> Peso Argentino");
                         System.out.println("2. Peso Argentino --> Dólar");
                         System.out.println("3. Dólar --> Real Brasileño");
                         System.out.println("4. Real Brasileño --> Dólar");
