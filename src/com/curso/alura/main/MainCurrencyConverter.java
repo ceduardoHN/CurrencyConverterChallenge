@@ -71,7 +71,7 @@ public class MainCurrencyConverter {
                         Gson gson = new GsonBuilder().setPrettyPrinting().create();
                         String jsonOutput = gson.toJson(conversionPairDTO);
 
-                        String format = String.format("\nTasa de conversiones entre '%s' y '%s':\n%s\n",
+                        String format = String.format("\nTasa de conversion entre '%s' y '%s':\n%s\n",
                                 currency1.toUpperCase(), currency2.toUpperCase(), jsonOutput);
                         System.out.println(format);
                     }
