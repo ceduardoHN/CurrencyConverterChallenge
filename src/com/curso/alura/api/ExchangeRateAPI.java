@@ -14,10 +14,11 @@ import java.net.http.HttpResponse;
  */
 public class ExchangeRateAPI {
     private static final String API_KEY = "43a001f465fe26f57da42bb9";
+    private static final String ADDRESS_PATH = "https://v6.exchangerate-api.com/v6";
 
     public LatestExchangeRateDTO latestExhangeRate(String currency){
-        String address = String.format("https://v6.exchangerate-api.com/v6/%s/latest/%s",
-                API_KEY, currency);
+        String address = String.format("%s/%s/latest/%s",
+                ADDRESS_PATH, API_KEY, currency);
 
         try {
             HttpClient client = HttpClient.newHttpClient();
@@ -38,8 +39,8 @@ public class ExchangeRateAPI {
     }
 
     public ConversionPairDTO getConversionRate(String currency1, String currency2){
-        String address = String.format("https://v6.exchangerate-api.com/v6/%s/pair/%s/%s",
-                API_KEY, currency1, currency2);
+        String address = String.format("%s/%s/pair/%s/%s",
+                ADDRESS_PATH, API_KEY, currency1, currency2);
 
         try {
             HttpClient client = HttpClient.newHttpClient();
@@ -60,8 +61,8 @@ public class ExchangeRateAPI {
     }
 
     public String conversion(double amount, String baseCurrency, String targetCurrency){
-        String address = String.format("https://v6.exchangerate-api.com/v6/%s/pair/%s/%s",
-                API_KEY, baseCurrency, targetCurrency);
+        String address = String.format("%s/%s/pair/%s/%s",
+                ADDRESS_PATH, API_KEY, baseCurrency, targetCurrency);
 
         try {
             HttpClient client = HttpClient.newHttpClient();

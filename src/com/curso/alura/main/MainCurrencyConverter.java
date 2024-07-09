@@ -22,7 +22,7 @@ public class MainCurrencyConverter {
 
         while(true){
             System.out.println("-----------------MENÚ PRINCIPAL CONVERTIDOR DE MONEDAS-----------------");
-            System.out.println("1. Obtener tasas de cambio actualizada de una moneda específica.");
+            System.out.println("1. Obtener tasas de cambio actualizadas de una moneda específica.");
             System.out.println("2. Obtener tasa de cambio actualizada entre dos monedas.");
             System.out.println("3. Conversiones.");
             System.out.println("4. SALIR");
@@ -87,6 +87,7 @@ public class MainCurrencyConverter {
 
                     break;
                 case 3:
+                    flagOp2 = true;
                     while(flagOp2){
                         System.out.println("\n-----------------Menú de Conversiones-----------------");
                         System.out.println("1. Dólar --> Peso Argentino");
