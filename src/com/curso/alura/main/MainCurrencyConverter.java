@@ -188,7 +188,7 @@ public class MainCurrencyConverter {
                                 flagOp2=false;
                                 break;
                             default:
-                                String format = String.format("\n¡¡La opcion '%d' no es válida!!\n", opcionConversiones);
+                                String format = String.format("\n¡¡La opción '%d' no es válida!!\n", opcionConversiones);
                                 System.out.println(format);
                         }
 
@@ -201,7 +201,7 @@ public class MainCurrencyConverter {
 
                     break;
                 default:
-                    String format = String.format("\n¡¡La opcion '%d' no es valida!!\n", opcionMenu);
+                    String format = String.format("\n¡¡La opción '%d' no es válida!!\n", opcionMenu);
                     System.out.println(format);
                     break;
             }
